@@ -506,8 +506,6 @@ plt.tight_layout()
 plt.savefig('figures/default_by_pos_count.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# Figure 4: Confusion Matrix for Random Forest Enhanced
-from sklearn.metrics import confusion_matrix
 
 # Calculate confusion matrix
 cm = confusion_matrix(y_test, y_pred_rf_enh)
